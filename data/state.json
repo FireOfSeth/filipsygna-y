@@ -1,0 +1,12 @@
+{
+  "capital": 100,
+  "riskPct": 20,
+  "paused": false,
+  "chatId": "",
+  "lastScanBar": 1789758000,
+  "lastSummaryDay": "",
+  "lastScan": null,
+  "cooldowns": {},
+  "trades": [],
+  "tgOffset": 0
+}
