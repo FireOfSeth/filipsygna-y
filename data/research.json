@@ -1,0 +1,2100 @@
+{
+  "createdAt": "2026-09-13T13:06:23.370Z",
+  "days": 180,
+  "testDays": 60,
+  "symbols": [
+    "BTC_USDT",
+    "ETH_USDT",
+    "SOL_USDT",
+    "ZEC_USDT",
+    "XRP_USDT",
+    "XAU_USDT",
+    "LSK_USDT",
+    "HYPE_USDT",
+    "PEPE_USDT",
+    "SKHYNIXSTOCK_USDT",
+    "DOGE_USDT",
+    "SUI_USDT",
+    "USOIL_USDT",
+    "NEAR_USDT",
+    "TAO_USDT",
+    "WLD_USDT",
+    "UNI_USDT",
+    "ADA_USDT",
+    "LINK_USDT",
+    "PUMPFUN_USDT",
+    "ARB_USDT",
+    "ONDO_USDT",
+    "SILVER_USDT",
+    "MUSTOCK_USDT",
+    "RIVER_USDT",
+    "AVAX_USDT",
+    "UAI_USDT",
+    "AAVE_USDT",
+    "ENA_USDT",
+    "INJ_USDT",
+    "XAUT_USDT",
+    "ETHFI_USDT",
+    "STORJ_USDT",
+    "SNDKSTOCK_USDT",
+    "UKOIL_USDT",
+    "RAY_USDT",
+    "DOT_USDT",
+    "SPX500_USDT",
+    "BNB_USDT",
+    "WLFI_USDT",
+    "BEAT_USDT",
+    "LONGXIA_USDT",
+    "SHIB_USDT",
+    "LAB_USDT",
+    "LTC_USDT",
+    "NIULAI_USDT",
+    "BTW_USDT",
+    "FARTCOIN_USDT",
+    "ATOM_USDT",
+    "USELESS_USDT",
+    "XLM_USDT",
+    "APT_USDT",
+    "XMR_USDT",
+    "AKE_USDT",
+    "MSTRSTOCK_USDT",
+    "PONS_USDT",
+    "NVIDIA_USDT",
+    "KORU_USDT",
+    "FILECOIN_USDT",
+    "DASH_USDT",
+    "HBAR_USDT",
+    "REZ_USDT",
+    "TIA_USDT",
+    "ICP_USDT",
+    "VTHO_USDT",
+    "OPENAI_USDT",
+    "SPY_USDT",
+    "POWR_USDT",
+    "ASTER_USDT",
+    "ALCH_USDT",
+    "VVV_USDT",
+    "SEI_USDT",
+    "XPL_USDT",
+    "BCH_USDT",
+    "ZRO_USDT"
+  ],
+  "rows": [
+    {
+      "id": "pullback 15m/1h tp1R=1.5 tp2R=3 maxHoldHours=12",
+      "family": "pullback 15m/1h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 30,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 968,
+        "taken": 968,
+        "expired": 0,
+        "wins": 401,
+        "winRate": 41.425619834710744,
+        "avgR": -0.04156034456220686,
+        "totalR": -40.23041353621625,
+        "profitFactor": 0.9293076765863183,
+        "maxLossStreak": 15,
+        "maxDrawdownR": 73.0855194720184,
+        "byResult": {
+          "timeout": 206,
+          "sl": 506,
+          "tp2": 135,
+          "be": 121
+        }
+      },
+      "test": {
+        "signals": 532,
+        "taken": 532,
+        "expired": 0,
+        "wins": 218,
+        "winRate": 40.97744360902256,
+        "avgR": -0.0626985387420192,
+        "totalR": -33.35562261075421,
+        "profitFactor": 0.8944674189022597,
+        "maxLossStreak": 16,
+        "maxDrawdownR": 63.83349408196608,
+        "byResult": {
+          "sl": 278,
+          "be": 64,
+          "tp2": 65,
+          "timeout": 125
+        }
+      }
+    },
+    {
+      "id": "pullback 15m/1h tp1R=1.5 tp2R=3 maxHoldHours=24",
+      "family": "pullback 15m/1h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 30,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 951,
+        "taken": 951,
+        "expired": 0,
+        "wins": 402,
+        "winRate": 42.27129337539432,
+        "avgR": -0.0191847515097523,
+        "totalR": -18.244698685774438,
+        "profitFactor": 0.968698449690442,
+        "maxLossStreak": 15,
+        "maxDrawdownR": 69.03482617886525,
+        "byResult": {
+          "sl": 532,
+          "tp2": 166,
+          "be": 160,
+          "timeout": 93
+        }
+      },
+      "test": {
+        "signals": 522,
+        "taken": 522,
+        "expired": 0,
+        "wins": 214,
+        "winRate": 40.99616858237548,
+        "avgR": -0.04065050539399605,
+        "totalR": -21.219563815665936,
+        "profitFactor": 0.9348766989468846,
+        "maxLossStreak": 14,
+        "maxDrawdownR": 59.0255844623482,
+        "byResult": {
+          "sl": 296,
+          "be": 88,
+          "tp2": 90,
+          "timeout": 48
+        }
+      }
+    },
+    {
+      "id": "pullback 15m/1h tp1R=1 tp2R=2 maxHoldHours=12",
+      "family": "pullback 15m/1h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 30,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 974,
+        "taken": 974,
+        "expired": 0,
+        "wins": 487,
+        "winRate": 50,
+        "avgR": -0.04331839293404539,
+        "totalR": -42.192114717760205,
+        "profitFactor": 0.9153237574076967,
+        "maxLossStreak": 15,
+        "maxDrawdownR": 58.90967242928582,
+        "byResult": {
+          "timeout": 120,
+          "sl": 446,
+          "tp2": 208,
+          "be": 200
+        }
+      },
+      "test": {
+        "signals": 539,
+        "taken": 539,
+        "expired": 0,
+        "wins": 270,
+        "winRate": 50.09276437847866,
+        "avgR": -0.024557329665370935,
+        "totalR": -13.236400689634934,
+        "profitFactor": 0.9518983934128783,
+        "maxLossStreak": 13,
+        "maxDrawdownR": 42.231168626717704,
+        "byResult": {
+          "be": 106,
+          "tp2": 128,
+          "sl": 244,
+          "timeout": 61
+        }
+      }
+    },
+    {
+      "id": "pullback 15m/1h tp1R=1 tp2R=2 maxHoldHours=24",
+      "family": "pullback 15m/1h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 30,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 966,
+        "taken": 966,
+        "expired": 0,
+        "wins": 492,
+        "winRate": 50.931677018633536,
+        "avgR": -0.033708992765948964,
+        "totalR": -32.562887011906696,
+        "profitFactor": 0.9359750628437994,
+        "maxLossStreak": 15,
+        "maxDrawdownR": 54.43487020209111,
+        "byResult": {
+          "sl": 466,
+          "tp2": 237,
+          "be": 222,
+          "timeout": 41
+        }
+      },
+      "test": {
+        "signals": 537,
+        "taken": 537,
+        "expired": 0,
+        "wins": 275,
+        "winRate": 51.21042830540037,
+        "avgR": -0.015214906072463633,
+        "totalR": -8.17040456091297,
+        "profitFactor": 0.9706544102433472,
+        "maxLossStreak": 13,
+        "maxDrawdownR": 37.86740540606111,
+        "byResult": {
+          "be": 125,
+          "tp2": 142,
+          "sl": 254,
+          "timeout": 16
+        }
+      }
+    },
+    {
+      "id": "pullback 15m/1h tp1R=2 tp2R=4 maxHoldHours=12",
+      "family": "pullback 15m/1h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 30,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 967,
+        "taken": 967,
+        "expired": 0,
+        "wins": 359,
+        "winRate": 37.125129265770425,
+        "avgR": -0.03129111903773065,
+        "totalR": -30.258512109485537,
+        "profitFactor": 0.9503568824016527,
+        "maxLossStreak": 17,
+        "maxDrawdownR": 70.3423204635796,
+        "byResult": {
+          "timeout": 265,
+          "sl": 542,
+          "be": 69,
+          "tp2": 91
+        }
+      },
+      "test": {
+        "signals": 530,
+        "taken": 530,
+        "expired": 0,
+        "wins": 199,
+        "winRate": 37.54716981132076,
+        "avgR": -0.0331074969609366,
+        "totalR": -17.546973389296397,
+        "profitFactor": 0.9470684729658473,
+        "maxLossStreak": 16,
+        "maxDrawdownR": 64.66232816104358,
+        "byResult": {
+          "sl": 290,
+          "be": 37,
+          "timeout": 156,
+          "tp2": 47
+        }
+      }
+    },
+    {
+      "id": "pullback 15m/1h tp1R=2 tp2R=4 maxHoldHours=24",
+      "family": "pullback 15m/1h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 30,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 943,
+        "taken": 943,
+        "expired": 0,
+        "wins": 348,
+        "winRate": 36.90349946977731,
+        "avgR": 0.005836778386849006,
+        "totalR": 5.504082018798613,
+        "profitFactor": 1.0087673209562165,
+        "maxLossStreak": 19,
+        "maxDrawdownR": 66.9546008781125,
+        "byResult": {
+          "sl": 571,
+          "be": 106,
+          "tp2": 127,
+          "timeout": 139
+        }
+      },
+      "test": {
+        "signals": 518,
+        "taken": 518,
+        "expired": 0,
+        "wins": 183,
+        "winRate": 35.32818532818533,
+        "avgR": -0.044004605705701395,
+        "totalR": -22.79438575555332,
+        "profitFactor": 0.9356942066776569,
+        "maxLossStreak": 25,
+        "maxDrawdownR": 66.13042777543849,
+        "byResult": {
+          "sl": 322,
+          "be": 59,
+          "timeout": 77,
+          "tp2": 60
+        }
+      }
+    },
+    {
+      "id": "pullback 1h/4h tp1R=1.5 tp2R=3 maxHoldHours=24",
+      "family": "pullback 1h/4h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.6,
+        "maxSlPct": 6,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 271,
+        "taken": 271,
+        "expired": 0,
+        "wins": 111,
+        "winRate": 40.959409594095945,
+        "avgR": -0.07483846632052288,
+        "totalR": -20.2812243728617,
+        "profitFactor": 0.8596727124344552,
+        "maxLossStreak": 12,
+        "maxDrawdownR": 35.71608221494417,
+        "byResult": {
+          "sl": 123,
+          "timeout": 113,
+          "be": 13,
+          "tp2": 22
+        }
+      },
+      "test": {
+        "signals": 137,
+        "taken": 137,
+        "expired": 0,
+        "wins": 62,
+        "winRate": 45.25547445255474,
+        "avgR": 0.00714116888478522,
+        "totalR": 0.9783401372155751,
+        "profitFactor": 1.0160296333171428,
+        "maxLossStreak": 9,
+        "maxDrawdownR": 13.740022173800776,
+        "byResult": {
+          "sl": 50,
+          "timeout": 77,
+          "tp2": 9,
+          "be": 1
+        }
+      }
+    },
+    {
+      "id": "pullback 1h/4h tp1R=1.5 tp2R=3 maxHoldHours=48",
+      "family": "pullback 1h/4h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.6,
+        "maxSlPct": 6,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 60,
+        "maxHoldHours": 48
+      },
+      "train": {
+        "signals": 266,
+        "taken": 266,
+        "expired": 0,
+        "wins": 101,
+        "winRate": 37.96992481203007,
+        "avgR": -0.05669947411415742,
+        "totalR": -15.082060114365873,
+        "profitFactor": 0.9079919364025678,
+        "maxLossStreak": 14,
+        "maxDrawdownR": 39.701015058007464,
+        "byResult": {
+          "sl": 146,
+          "timeout": 53,
+          "tp2": 44,
+          "be": 23
+        }
+      },
+      "test": {
+        "signals": 134,
+        "taken": 134,
+        "expired": 0,
+        "wins": 53,
+        "winRate": 39.55223880597015,
+        "avgR": -0.008394195816246348,
+        "totalR": -1.1248222393770106,
+        "profitFactor": 0.9854492872369384,
+        "maxLossStreak": 13,
+        "maxDrawdownR": 16.603804408330024,
+        "byResult": {
+          "sl": 67,
+          "tp2": 19,
+          "timeout": 42,
+          "be": 6
+        }
+      }
+    },
+    {
+      "id": "pullback 1h/4h tp1R=1 tp2R=2 maxHoldHours=24",
+      "family": "pullback 1h/4h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.6,
+        "maxSlPct": 6,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 272,
+        "taken": 272,
+        "expired": 0,
+        "wins": 123,
+        "winRate": 45.220588235294116,
+        "avgR": -0.08074980636020926,
+        "totalR": -21.963947329976918,
+        "profitFactor": 0.8363322785215523,
+        "maxLossStreak": 11,
+        "maxDrawdownR": 32.408173778187496,
+        "byResult": {
+          "sl": 113,
+          "be": 35,
+          "tp2": 47,
+          "timeout": 77
+        }
+      },
+      "test": {
+        "signals": 137,
+        "taken": 137,
+        "expired": 0,
+        "wins": 70,
+        "winRate": 51.09489051094891,
+        "avgR": 0.03039124023503789,
+        "totalR": 4.1635999122001905,
+        "profitFactor": 1.07538713162925,
+        "maxLossStreak": 9,
+        "maxDrawdownR": 11.598769542873242,
+        "byResult": {
+          "be": 14,
+          "sl": 45,
+          "timeout": 58,
+          "tp2": 20
+        }
+      }
+    },
+    {
+      "id": "pullback 1h/4h tp1R=1 tp2R=2 maxHoldHours=48",
+      "family": "pullback 1h/4h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.6,
+        "maxSlPct": 6,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 60,
+        "maxHoldHours": 48
+      },
+      "train": {
+        "signals": 269,
+        "taken": 269,
+        "expired": 0,
+        "wins": 125,
+        "winRate": 46.468401486988846,
+        "avgR": -0.0703564887506058,
+        "totalR": -18.92589547391296,
+        "profitFactor": 0.8680652933267883,
+        "maxLossStreak": 10,
+        "maxDrawdownR": 31.70589709624539,
+        "byResult": {
+          "sl": 128,
+          "be": 44,
+          "tp2": 59,
+          "timeout": 38
+        }
+      },
+      "test": {
+        "signals": 136,
+        "taken": 136,
+        "expired": 0,
+        "wins": 68,
+        "winRate": 50,
+        "avgR": 0.034561038857648246,
+        "totalR": 4.700301284640162,
+        "profitFactor": 1.0734152148048242,
+        "maxLossStreak": 13,
+        "maxDrawdownR": 11.648322670266822,
+        "byResult": {
+          "be": 23,
+          "sl": 55,
+          "tp2": 32,
+          "timeout": 26
+        }
+      }
+    },
+    {
+      "id": "pullback 1h/4h tp1R=2 tp2R=4 maxHoldHours=24",
+      "family": "pullback 1h/4h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.6,
+        "maxSlPct": 6,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 269,
+        "taken": 269,
+        "expired": 0,
+        "wins": 106,
+        "winRate": 39.405204460966544,
+        "avgR": -0.06091522404251119,
+        "totalR": -16.38619526743551,
+        "profitFactor": 0.888514906724962,
+        "maxLossStreak": 14,
+        "maxDrawdownR": 37.32386961097431,
+        "byResult": {
+          "sl": 125,
+          "timeout": 126,
+          "tp2": 11,
+          "be": 7
+        }
+      },
+      "test": {
+        "signals": 137,
+        "taken": 137,
+        "expired": 0,
+        "wins": 62,
+        "winRate": 45.25547445255474,
+        "avgR": 0.03776637025771809,
+        "totalR": 5.173992725307379,
+        "profitFactor": 1.0847733860825608,
+        "maxLossStreak": 9,
+        "maxDrawdownR": 12.499537775693026,
+        "byResult": {
+          "sl": 50,
+          "timeout": 82,
+          "tp2": 4,
+          "be": 1
+        }
+      }
+    },
+    {
+      "id": "pullback 1h/4h tp1R=2 tp2R=4 maxHoldHours=48",
+      "family": "pullback 1h/4h",
+      "name": "pullback",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "pullbackBars": 8,
+        "minAdx": 20,
+        "minVolRatio": 1,
+        "rsiPullback": 45,
+        "maxExtensionAtr": 1,
+        "slBufferAtr": 0.2,
+        "minSlAtr": 1,
+        "minSlPct": 0.6,
+        "maxSlPct": 6,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 60,
+        "maxHoldHours": 48
+      },
+      "train": {
+        "signals": 263,
+        "taken": 263,
+        "expired": 0,
+        "wins": 92,
+        "winRate": 34.98098859315589,
+        "avgR": -0.033324344712295687,
+        "totalR": -8.764302659333765,
+        "profitFactor": 0.9482166849584087,
+        "maxLossStreak": 14,
+        "maxDrawdownR": 39.43715882561285,
+        "byResult": {
+          "sl": 150,
+          "timeout": 69,
+          "tp2": 27,
+          "be": 17
+        }
+      },
+      "test": {
+        "signals": 134,
+        "taken": 134,
+        "expired": 0,
+        "wins": 53,
+        "winRate": 39.55223880597015,
+        "avgR": 0.08007358854292695,
+        "totalR": 10.729860864752212,
+        "profitFactor": 1.1388015972346863,
+        "maxLossStreak": 13,
+        "maxDrawdownR": 12.57268544849813,
+        "byResult": {
+          "sl": 67,
+          "tp2": 11,
+          "timeout": 52,
+          "be": 4
+        }
+      }
+    },
+    {
+      "id": "breakout 15m/1h lookback=48 tp1R=1.5 tp2R=3 maxHoldHours=12",
+      "family": "breakout 15m/1h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "lookback": 48,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 1.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 30,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 8097,
+        "taken": 8097,
+        "expired": 0,
+        "wins": 3134,
+        "winRate": 38.70569346671607,
+        "avgR": -0.10478877587003455,
+        "totalR": -848.4747182196697,
+        "profitFactor": 0.8431885573439298,
+        "maxLossStreak": 31,
+        "maxDrawdownR": 903.1699342306407,
+        "byResult": {
+          "tp2": 1495,
+          "sl": 4916,
+          "be": 1384,
+          "timeout": 302
+        }
+      },
+      "test": {
+        "signals": 4046,
+        "taken": 4046,
+        "expired": 0,
+        "wins": 1534,
+        "winRate": 37.91398912506179,
+        "avgR": -0.1161201731816356,
+        "totalR": -469.82222069289764,
+        "profitFactor": 0.8290034046464333,
+        "maxLossStreak": 21,
+        "maxDrawdownR": 495.0007028921738,
+        "byResult": {
+          "sl": 2495,
+          "be": 646,
+          "timeout": 145,
+          "tp2": 760
+        }
+      }
+    },
+    {
+      "id": "breakout 15m/1h lookback=48 tp1R=2 tp2R=4 maxHoldHours=12",
+      "family": "breakout 15m/1h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "lookback": 48,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 1.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 30,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 7931,
+        "taken": 7931,
+        "expired": 0,
+        "wins": 2647,
+        "winRate": 33.37536250157609,
+        "avgR": -0.09425233225255221,
+        "totalR": -747.5152470949915,
+        "profitFactor": 0.8699726373447924,
+        "maxLossStreak": 33,
+        "maxDrawdownR": 867.718070203795,
+        "byResult": {
+          "tp2": 1074,
+          "sl": 5216,
+          "be": 995,
+          "timeout": 646
+        }
+      },
+      "test": {
+        "signals": 3955,
+        "taken": 3955,
+        "expired": 0,
+        "wins": 1274,
+        "winRate": 32.21238938053098,
+        "avgR": -0.11167608821601932,
+        "totalR": -441.67892889435643,
+        "profitFactor": 0.8492239104536183,
+        "maxLossStreak": 32,
+        "maxDrawdownR": 468.3272024019756,
+        "byResult": {
+          "sl": 2658,
+          "timeout": 290,
+          "be": 440,
+          "tp2": 567
+        }
+      }
+    },
+    {
+      "id": "breakout 15m/1h lookback=96 tp1R=1.5 tp2R=3 maxHoldHours=12",
+      "family": "breakout 15m/1h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "lookback": 96,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 1.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 30,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 6393,
+        "taken": 6393,
+        "expired": 0,
+        "wins": 2476,
+        "winRate": 38.729860785233846,
+        "avgR": -0.10849482166816969,
+        "totalR": -693.6073949246088,
+        "profitFactor": 0.8371651192707151,
+        "maxLossStreak": 22,
+        "maxDrawdownR": 748.99508526267,
+        "byResult": {
+          "tp2": 1151,
+          "sl": 3872,
+          "be": 1111,
+          "timeout": 259
+        }
+      },
+      "test": {
+        "signals": 3177,
+        "taken": 3177,
+        "expired": 0,
+        "wins": 1238,
+        "winRate": 38.96757947749449,
+        "avgR": -0.08950051606896485,
+        "totalR": -284.34313955110133,
+        "profitFactor": 0.8656323178466369,
+        "maxLossStreak": 28,
+        "maxDrawdownR": 306.0575215808992,
+        "byResult": {
+          "be": 520,
+          "sl": 1922,
+          "timeout": 126,
+          "tp2": 609
+        }
+      }
+    },
+    {
+      "id": "breakout 15m/1h lookback=96 tp1R=2 tp2R=4 maxHoldHours=12",
+      "family": "breakout 15m/1h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "lookback": 96,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 1.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 30,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 6248,
+        "taken": 6248,
+        "expired": 0,
+        "wins": 2077,
+        "winRate": 33.2426376440461,
+        "avgR": -0.09311617044791592,
+        "totalR": -581.7898329585787,
+        "profitFactor": 0.8713270289666166,
+        "maxLossStreak": 28,
+        "maxDrawdownR": 652.5457113974139,
+        "byResult": {
+          "tp2": 843,
+          "sl": 4104,
+          "be": 750,
+          "timeout": 551
+        }
+      },
+      "test": {
+        "signals": 3106,
+        "taken": 3106,
+        "expired": 0,
+        "wins": 1018,
+        "winRate": 32.77527366387637,
+        "avgR": -0.09233491035103367,
+        "totalR": -286.7922315503106,
+        "profitFactor": 0.873982652496183,
+        "maxLossStreak": 34,
+        "maxDrawdownR": 304.2923786189939,
+        "byResult": {
+          "timeout": 236,
+          "sl": 2064,
+          "tp2": 450,
+          "be": 356
+        }
+      }
+    },
+    {
+      "id": "breakout 1h/4h lookback=24 slAtr=1.5 tp1R=1.5 tp2R=3",
+      "family": "breakout 1h/4h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "lookback": 24,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 1.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 2987,
+        "taken": 2987,
+        "expired": 0,
+        "wins": 1164,
+        "winRate": 38.9688650820221,
+        "avgR": -0.11115730493181059,
+        "totalR": -332.0268698313182,
+        "profitFactor": 0.826287102018048,
+        "maxLossStreak": 28,
+        "maxDrawdownR": 354.73610633063544,
+        "byResult": {
+          "be": 433,
+          "sl": 1749,
+          "timeout": 389,
+          "tp2": 416
+        }
+      },
+      "test": {
+        "signals": 1523,
+        "taken": 1523,
+        "expired": 0,
+        "wins": 638,
+        "winRate": 41.89100459619173,
+        "avgR": -0.011472502683809851,
+        "totalR": -17.472621587442404,
+        "profitFactor": 0.9811702333616917,
+        "maxLossStreak": 14,
+        "maxDrawdownR": 134.57266641951486,
+        "byResult": {
+          "be": 210,
+          "sl": 848,
+          "timeout": 206,
+          "tp2": 259
+        }
+      }
+    },
+    {
+      "id": "breakout 1h/4h lookback=24 slAtr=1.5 tp1R=2 tp2R=4",
+      "family": "breakout 1h/4h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "lookback": 24,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 1.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 2905,
+        "taken": 2905,
+        "expired": 0,
+        "wins": 991,
+        "winRate": 34.11359724612736,
+        "avgR": -0.12994908561876137,
+        "totalR": -377.50209372250174,
+        "profitFactor": 0.8102062915141872,
+        "maxLossStreak": 33,
+        "maxDrawdownR": 405.6327019978209,
+        "byResult": {
+          "timeout": 609,
+          "sl": 1814,
+          "tp2": 221,
+          "be": 261
+        }
+      },
+      "test": {
+        "signals": 1464,
+        "taken": 1464,
+        "expired": 0,
+        "wins": 546,
+        "winRate": 37.295081967213115,
+        "avgR": 0.016303080242952482,
+        "totalR": 23.86770947568243,
+        "profitFactor": 1.0249660652150414,
+        "maxLossStreak": 22,
+        "maxDrawdownR": 143.6079246458262,
+        "byResult": {
+          "timeout": 312,
+          "sl": 871,
+          "be": 106,
+          "tp2": 175
+        }
+      }
+    },
+    {
+      "id": "breakout 1h/4h lookback=24 slAtr=2.5 tp1R=1.5 tp2R=3",
+      "family": "breakout 1h/4h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "lookback": 24,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 2.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 2541,
+        "taken": 2541,
+        "expired": 0,
+        "wins": 1021,
+        "winRate": 40.181031090122,
+        "avgR": -0.1400375646116235,
+        "totalR": -355.8354516781353,
+        "profitFactor": 0.7445229960512288,
+        "maxLossStreak": 32,
+        "maxDrawdownR": 374.8208564733033,
+        "byResult": {
+          "timeout": 1046,
+          "sl": 1196,
+          "tp2": 130,
+          "be": 169
+        }
+      },
+      "test": {
+        "signals": 1284,
+        "taken": 1284,
+        "expired": 0,
+        "wins": 595,
+        "winRate": 46.33956386292835,
+        "avgR": 0.03904429005090565,
+        "totalR": 50.13286842536286,
+        "profitFactor": 1.0816388098516274,
+        "maxLossStreak": 13,
+        "maxDrawdownR": 105.37656139317606,
+        "byResult": {
+          "timeout": 587,
+          "sl": 522,
+          "be": 59,
+          "tp2": 116
+        }
+      }
+    },
+    {
+      "id": "breakout 1h/4h lookback=24 slAtr=2.5 tp1R=2 tp2R=4",
+      "family": "breakout 1h/4h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "lookback": 24,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 2.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 2519,
+        "taken": 2519,
+        "expired": 0,
+        "wins": 959,
+        "winRate": 38.07066296149266,
+        "avgR": -0.15297343712382197,
+        "totalR": -385.34008811490753,
+        "profitFactor": 0.7274397426760623,
+        "maxLossStreak": 32,
+        "maxDrawdownR": 403.5188140341982,
+        "byResult": {
+          "timeout": 1173,
+          "sl": 1211,
+          "tp2": 65,
+          "be": 70
+        }
+      },
+      "test": {
+        "signals": 1266,
+        "taken": 1266,
+        "expired": 0,
+        "wins": 566,
+        "winRate": 44.70774091627172,
+        "avgR": 0.051412705049143935,
+        "totalR": 65.08848459221622,
+        "profitFactor": 1.104879861601983,
+        "maxLossStreak": 16,
+        "maxDrawdownR": 109.64658875100199,
+        "byResult": {
+          "timeout": 634,
+          "sl": 526,
+          "tp2": 68,
+          "be": 38
+        }
+      }
+    },
+    {
+      "id": "breakout 1h/4h lookback=48 slAtr=1.5 tp1R=1.5 tp2R=3",
+      "family": "breakout 1h/4h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "lookback": 48,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 1.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 2348,
+        "taken": 2348,
+        "expired": 0,
+        "wins": 906,
+        "winRate": 38.58603066439523,
+        "avgR": -0.1273247893647769,
+        "totalR": -298.9586054284962,
+        "profitFactor": 0.8017009231539017,
+        "maxLossStreak": 26,
+        "maxDrawdownR": 314.835374249865,
+        "byResult": {
+          "be": 344,
+          "sl": 1380,
+          "tp2": 307,
+          "timeout": 317
+        }
+      },
+      "test": {
+        "signals": 1215,
+        "taken": 1215,
+        "expired": 0,
+        "wins": 520,
+        "winRate": 42.79835390946502,
+        "avgR": 0.015587619606406223,
+        "totalR": 18.93895782178356,
+        "profitFactor": 1.026070780312347,
+        "maxLossStreak": 16,
+        "maxDrawdownR": 88.26506789257002,
+        "byResult": {
+          "be": 173,
+          "sl": 663,
+          "timeout": 163,
+          "tp2": 216
+        }
+      }
+    },
+    {
+      "id": "breakout 1h/4h lookback=48 slAtr=1.5 tp1R=2 tp2R=4",
+      "family": "breakout 1h/4h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "lookback": 48,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 1.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 2287,
+        "taken": 2287,
+        "expired": 0,
+        "wins": 768,
+        "winRate": 33.58111062527328,
+        "avgR": -0.15078025618933177,
+        "totalR": -344.83444590500176,
+        "profitFactor": 0.7809864111561257,
+        "maxLossStreak": 29,
+        "maxDrawdownR": 365.4603025448288,
+        "byResult": {
+          "timeout": 484,
+          "sl": 1437,
+          "tp2": 163,
+          "be": 203
+        }
+      },
+      "test": {
+        "signals": 1172,
+        "taken": 1172,
+        "expired": 0,
+        "wins": 443,
+        "winRate": 37.79863481228669,
+        "avgR": 0.044809005706937376,
+        "totalR": 52.516154688530605,
+        "profitFactor": 1.069532309785133,
+        "maxLossStreak": 15,
+        "maxDrawdownR": 89.33292599993361,
+        "byResult": {
+          "timeout": 246,
+          "sl": 686,
+          "be": 88,
+          "tp2": 152
+        }
+      }
+    },
+    {
+      "id": "breakout 1h/4h lookback=48 slAtr=2.5 tp1R=1.5 tp2R=3",
+      "family": "breakout 1h/4h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "lookback": 48,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 2.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 1983,
+        "taken": 1983,
+        "expired": 0,
+        "wins": 811,
+        "winRate": 40.89762985375693,
+        "avgR": -0.1362507647283876,
+        "totalR": -270.1852664563926,
+        "profitFactor": 0.748728824150674,
+        "maxLossStreak": 38,
+        "maxDrawdownR": 293.86822281966715,
+        "byResult": {
+          "timeout": 837,
+          "sl": 925,
+          "tp2": 90,
+          "be": 131
+        }
+      },
+      "test": {
+        "signals": 1012,
+        "taken": 1012,
+        "expired": 0,
+        "wins": 472,
+        "winRate": 46.6403162055336,
+        "avgR": 0.0635244932606489,
+        "totalR": 64.2867871797767,
+        "profitFactor": 1.1329765983606848,
+        "maxLossStreak": 14,
+        "maxDrawdownR": 72.22401282255383,
+        "byResult": {
+          "timeout": 436,
+          "sl": 417,
+          "be": 55,
+          "tp2": 104
+        }
+      }
+    },
+    {
+      "id": "breakout 1h/4h lookback=48 slAtr=2.5 tp1R=2 tp2R=4",
+      "family": "breakout 1h/4h",
+      "name": "breakout",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "lookback": 48,
+        "minVolRatio": 1.5,
+        "maxExtensionAtr": 1,
+        "slAtr": 2.5,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 2,
+        "tp2R": 4,
+        "validityMinutes": 60,
+        "maxHoldHours": 24
+      },
+      "train": {
+        "signals": 1969,
+        "taken": 1969,
+        "expired": 0,
+        "wins": 766,
+        "winRate": 38.90299644489589,
+        "avgR": -0.14134455773838323,
+        "totalR": -278.30743418687655,
+        "profitFactor": 0.7450598776441055,
+        "maxLossStreak": 38,
+        "maxDrawdownR": 298.8533759837415,
+        "byResult": {
+          "timeout": 932,
+          "sl": 936,
+          "be": 53,
+          "tp2": 48
+        }
+      },
+      "test": {
+        "signals": 996,
+        "taken": 996,
+        "expired": 0,
+        "wins": 443,
+        "winRate": 44.47791164658634,
+        "avgR": 0.07338568920989255,
+        "totalR": 73.09214645305298,
+        "profitFactor": 1.148841045234474,
+        "maxLossStreak": 14,
+        "maxDrawdownR": 73.59424147655804,
+        "byResult": {
+          "timeout": 483,
+          "sl": 422,
+          "tp2": 59,
+          "be": 32
+        }
+      }
+    },
+    {
+      "id": "meanrev 15m/1h bbMult=2.5 rsiExtreme=25 tp1R=1 tp2R=2",
+      "family": "meanrev 15m/1h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "bbMult": 2.5,
+        "rsiExtreme": 25,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 30,
+        "maxHoldHours": 6
+      },
+      "train": {
+        "signals": 1173,
+        "taken": 1173,
+        "expired": 0,
+        "wins": 531,
+        "winRate": 45.26854219948849,
+        "avgR": -0.1437465514786514,
+        "totalR": -168.6147048844581,
+        "profitFactor": 0.754380372465667,
+        "maxLossStreak": 34,
+        "maxDrawdownR": 174.48288978770847,
+        "byResult": {
+          "sl": 617,
+          "be": 203,
+          "timeout": 95,
+          "tp2": 258
+        }
+      },
+      "test": {
+        "signals": 585,
+        "taken": 585,
+        "expired": 0,
+        "wins": 287,
+        "winRate": 49.059829059829056,
+        "avgR": -0.0739565200569539,
+        "totalR": -43.264564233318026,
+        "profitFactor": 0.866084915891411,
+        "maxLossStreak": 10,
+        "maxDrawdownR": 68.90755889514274,
+        "byResult": {
+          "sl": 292,
+          "tp2": 140,
+          "be": 106,
+          "timeout": 47
+        }
+      }
+    },
+    {
+      "id": "meanrev 15m/1h bbMult=2.5 rsiExtreme=25 tp1R=1.5 tp2R=3",
+      "family": "meanrev 15m/1h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "bbMult": 2.5,
+        "rsiExtreme": 25,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 30,
+        "maxHoldHours": 6
+      },
+      "train": {
+        "signals": 1173,
+        "taken": 1173,
+        "expired": 0,
+        "wins": 464,
+        "winRate": 39.55669224211424,
+        "avgR": -0.09811651683448082,
+        "totalR": -115.09067424684599,
+        "profitFactor": 0.8470477122317224,
+        "maxLossStreak": 34,
+        "maxDrawdownR": 166.14903377691093,
+        "byResult": {
+          "sl": 675,
+          "timeout": 194,
+          "tp2": 172,
+          "be": 132
+        }
+      },
+      "test": {
+        "signals": 584,
+        "taken": 584,
+        "expired": 0,
+        "wins": 244,
+        "winRate": 41.78082191780822,
+        "avgR": -0.04575795851865932,
+        "totalR": -26.72264777489704,
+        "profitFactor": 0.9270861976507937,
+        "maxLossStreak": 16,
+        "maxDrawdownR": 67.51657905027814,
+        "byResult": {
+          "sl": 331,
+          "tp2": 94,
+          "timeout": 95,
+          "be": 64
+        }
+      }
+    },
+    {
+      "id": "meanrev 15m/1h bbMult=2.5 rsiExtreme=20 tp1R=1 tp2R=2",
+      "family": "meanrev 15m/1h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "bbMult": 2.5,
+        "rsiExtreme": 20,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 30,
+        "maxHoldHours": 6
+      },
+      "train": {
+        "signals": 276,
+        "taken": 276,
+        "expired": 0,
+        "wins": 120,
+        "winRate": 43.47826086956522,
+        "avgR": -0.16033503371384686,
+        "totalR": -44.252469305021734,
+        "profitFactor": 0.7293921469031439,
+        "maxLossStreak": 29,
+        "maxDrawdownR": 66.1938730975205,
+        "byResult": {
+          "sl": 148,
+          "be": 40,
+          "tp2": 59,
+          "timeout": 29
+        }
+      },
+      "test": {
+        "signals": 146,
+        "taken": 146,
+        "expired": 0,
+        "wins": 74,
+        "winRate": 50.68493150684932,
+        "avgR": -0.07208106225404255,
+        "totalR": -10.523835089090213,
+        "profitFactor": 0.8638999142141586,
+        "maxLossStreak": 8,
+        "maxDrawdownR": 19.559649459999125,
+        "byResult": {
+          "sl": 70,
+          "tp2": 31,
+          "be": 35,
+          "timeout": 10
+        }
+      }
+    },
+    {
+      "id": "meanrev 15m/1h bbMult=2.5 rsiExtreme=20 tp1R=1.5 tp2R=3",
+      "family": "meanrev 15m/1h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "bbMult": 2.5,
+        "rsiExtreme": 20,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 30,
+        "maxHoldHours": 6
+      },
+      "train": {
+        "signals": 276,
+        "taken": 276,
+        "expired": 0,
+        "wins": 99,
+        "winRate": 35.869565217391305,
+        "avgR": -0.17187125590349786,
+        "totalR": -47.43646662936541,
+        "profitFactor": 0.7437331150319622,
+        "maxLossStreak": 29,
+        "maxDrawdownR": 81.55324721042585,
+        "byResult": {
+          "sl": 167,
+          "tp2": 39,
+          "timeout": 51,
+          "be": 19
+        }
+      },
+      "test": {
+        "signals": 145,
+        "taken": 145,
+        "expired": 0,
+        "wins": 56,
+        "winRate": 38.62068965517241,
+        "avgR": -0.09527047048082556,
+        "totalR": -13.814218219719706,
+        "profitFactor": 0.8532307277997256,
+        "maxLossStreak": 13,
+        "maxDrawdownR": 31.96140851931728,
+        "byResult": {
+          "sl": 85,
+          "tp2": 23,
+          "timeout": 23,
+          "be": 14
+        }
+      }
+    },
+    {
+      "id": "meanrev 15m/1h bbMult=3 rsiExtreme=25 tp1R=1 tp2R=2",
+      "family": "meanrev 15m/1h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "bbMult": 3,
+        "rsiExtreme": 25,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 30,
+        "maxHoldHours": 6
+      },
+      "train": {
+        "signals": 733,
+        "taken": 733,
+        "expired": 0,
+        "wins": 318,
+        "winRate": 43.38335607094134,
+        "avgR": -0.17443979391303188,
+        "totalR": -127.86436893825237,
+        "profitFactor": 0.709605584775391,
+        "maxLossStreak": 37,
+        "maxDrawdownR": 144.29873263920408,
+        "byResult": {
+          "be": 109,
+          "timeout": 74,
+          "sl": 395,
+          "tp2": 155
+        }
+      },
+      "test": {
+        "signals": 386,
+        "taken": 386,
+        "expired": 0,
+        "wins": 187,
+        "winRate": 48.44559585492228,
+        "avgR": -0.10409663359450315,
+        "totalR": -40.18130056747822,
+        "profitFactor": 0.813106601694914,
+        "maxLossStreak": 11,
+        "maxDrawdownR": 53.207914322906696,
+        "byResult": {
+          "tp2": 82,
+          "sl": 195,
+          "be": 72,
+          "timeout": 37
+        }
+      }
+    },
+    {
+      "id": "meanrev 15m/1h bbMult=3 rsiExtreme=25 tp1R=1.5 tp2R=3",
+      "family": "meanrev 15m/1h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "bbMult": 3,
+        "rsiExtreme": 25,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 30,
+        "maxHoldHours": 6
+      },
+      "train": {
+        "signals": 733,
+        "taken": 733,
+        "expired": 0,
+        "wins": 288,
+        "winRate": 39.2905866302865,
+        "avgR": -0.11288775291435613,
+        "totalR": -82.74672288622304,
+        "profitFactor": 0.8229717540934831,
+        "maxLossStreak": 37,
+        "maxDrawdownR": 127.66903039023158,
+        "byResult": {
+          "timeout": 135,
+          "tp2": 102,
+          "be": 78,
+          "sl": 418
+        }
+      },
+      "test": {
+        "signals": 385,
+        "taken": 385,
+        "expired": 0,
+        "wins": 158,
+        "winRate": 41.03896103896104,
+        "avgR": -0.08999238907540612,
+        "totalR": -34.64706979403135,
+        "profitFactor": 0.8573668695865345,
+        "maxLossStreak": 12,
+        "maxDrawdownR": 57.21580546973061,
+        "byResult": {
+          "tp2": 58,
+          "sl": 220,
+          "timeout": 65,
+          "be": 42
+        }
+      }
+    },
+    {
+      "id": "meanrev 15m/1h bbMult=3 rsiExtreme=20 tp1R=1 tp2R=2",
+      "family": "meanrev 15m/1h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "bbMult": 3,
+        "rsiExtreme": 20,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 30,
+        "maxHoldHours": 6
+      },
+      "train": {
+        "signals": 230,
+        "taken": 230,
+        "expired": 0,
+        "wins": 100,
+        "winRate": 43.47826086956522,
+        "avgR": -0.13678391248376431,
+        "totalR": -31.46029987126579,
+        "profitFactor": 0.7685541981263632,
+        "maxLossStreak": 28,
+        "maxDrawdownR": 55.817491114009904,
+        "byResult": {
+          "sl": 123,
+          "be": 27,
+          "tp2": 53,
+          "timeout": 27
+        }
+      },
+      "test": {
+        "signals": 115,
+        "taken": 115,
+        "expired": 0,
+        "wins": 60,
+        "winRate": 52.17391304347826,
+        "avgR": -0.0427745828213865,
+        "totalR": -4.9190770244594475,
+        "profitFactor": 0.9173352693739087,
+        "maxLossStreak": 5,
+        "maxDrawdownR": 13.839181047090984,
+        "byResult": {
+          "tp2": 25,
+          "sl": 54,
+          "be": 27,
+          "timeout": 9
+        }
+      }
+    },
+    {
+      "id": "meanrev 15m/1h bbMult=3 rsiExtreme=20 tp1R=1.5 tp2R=3",
+      "family": "meanrev 15m/1h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 900,
+        "htfTf": 3600,
+        "bbMult": 3,
+        "rsiExtreme": 20,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 4,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 30,
+        "maxHoldHours": 6
+      },
+      "train": {
+        "signals": 230,
+        "taken": 230,
+        "expired": 0,
+        "wins": 87,
+        "winRate": 37.826086956521735,
+        "avgR": -0.11048751813062045,
+        "totalR": -25.412129170042704,
+        "profitFactor": 0.8296640500107421,
+        "maxLossStreak": 28,
+        "maxDrawdownR": 64.45328082565565,
+        "byResult": {
+          "sl": 135,
+          "tp2": 36,
+          "timeout": 46,
+          "be": 13
+        }
+      },
+      "test": {
+        "signals": 114,
+        "taken": 114,
+        "expired": 0,
+        "wins": 46,
+        "winRate": 40.35087719298245,
+        "avgR": -0.042187247237106464,
+        "totalR": -4.809346185030137,
+        "profitFactor": 0.9331092843246718,
+        "maxLossStreak": 10,
+        "maxDrawdownR": 20.096104353215516,
+        "byResult": {
+          "tp2": 20,
+          "sl": 65,
+          "timeout": 18,
+          "be": 11
+        }
+      }
+    },
+    {
+      "id": "meanrev 1h/4h maxHoldHours=12 bbMult=2.5 tp1R=1 tp2R=2",
+      "family": "meanrev 1h/4h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "bbMult": 2.5,
+        "rsiExtreme": 25,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 60,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 395,
+        "taken": 395,
+        "expired": 0,
+        "wins": 189,
+        "winRate": 47.848101265822784,
+        "avgR": -0.08243715187674948,
+        "totalR": -32.562674991316044,
+        "profitFactor": 0.8475010391801092,
+        "maxLossStreak": 14,
+        "maxDrawdownR": 67.51499071871338,
+        "byResult": {
+          "be": 56,
+          "sl": 195,
+          "tp2": 83,
+          "timeout": 61
+        }
+      },
+      "test": {
+        "signals": 165,
+        "taken": 165,
+        "expired": 0,
+        "wins": 83,
+        "winRate": 50.303030303030305,
+        "avgR": -0.06789094295552245,
+        "totalR": -11.202005587661205,
+        "profitFactor": 0.866382359821059,
+        "maxLossStreak": 10,
+        "maxDrawdownR": 21.95362062729466,
+        "byResult": {
+          "timeout": 34,
+          "tp2": 25,
+          "sl": 75,
+          "be": 31
+        }
+      }
+    },
+    {
+      "id": "meanrev 1h/4h maxHoldHours=12 bbMult=2.5 tp1R=1.5 tp2R=3",
+      "family": "meanrev 1h/4h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "bbMult": 2.5,
+        "rsiExtreme": 25,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 60,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 395,
+        "taken": 395,
+        "expired": 0,
+        "wins": 165,
+        "winRate": 41.77215189873418,
+        "avgR": -0.06654113533220705,
+        "totalR": -26.283748456221787,
+        "profitFactor": 0.8885218584263286,
+        "maxLossStreak": 15,
+        "maxDrawdownR": 68.99960546243895,
+        "byResult": {
+          "sl": 213,
+          "timeout": 113,
+          "be": 27,
+          "tp2": 42
+        }
+      },
+      "test": {
+        "signals": 165,
+        "taken": 165,
+        "expired": 0,
+        "wins": 72,
+        "winRate": 43.63636363636363,
+        "avgR": -0.0646941753516723,
+        "totalR": -10.674538933025929,
+        "profitFactor": 0.8867154771725436,
+        "maxLossStreak": 10,
+        "maxDrawdownR": 22.06415122499204,
+        "byResult": {
+          "timeout": 49,
+          "tp2": 16,
+          "sl": 84,
+          "be": 16
+        }
+      }
+    },
+    {
+      "id": "meanrev 1h/4h maxHoldHours=12 bbMult=3 tp1R=1 tp2R=2",
+      "family": "meanrev 1h/4h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "bbMult": 3,
+        "rsiExtreme": 25,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 1,
+        "tp2R": 2,
+        "validityMinutes": 60,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 248,
+        "taken": 248,
+        "expired": 0,
+        "wins": 108,
+        "winRate": 43.54838709677419,
+        "avgR": -0.12525119735213106,
+        "totalR": -31.062296943328505,
+        "profitFactor": 0.7885619931158158,
+        "maxLossStreak": 17,
+        "maxDrawdownR": 56.288277603747936,
+        "byResult": {
+          "sl": 135,
+          "tp2": 59,
+          "timeout": 29,
+          "be": 25
+        }
+      },
+      "test": {
+        "signals": 124,
+        "taken": 124,
+        "expired": 0,
+        "wins": 62,
+        "winRate": 50,
+        "avgR": -0.06423629241753516,
+        "totalR": -7.965300259774359,
+        "profitFactor": 0.8717862292407063,
+        "maxLossStreak": 9,
+        "maxDrawdownR": 17.94340927515028,
+        "byResult": {
+          "sl": 55,
+          "timeout": 26,
+          "tp2": 19,
+          "be": 24
+        }
+      }
+    },
+    {
+      "id": "meanrev 1h/4h maxHoldHours=12 bbMult=3 tp1R=1.5 tp2R=3",
+      "family": "meanrev 1h/4h",
+      "name": "meanrev",
+      "prm": {
+        "entryTf": 3600,
+        "htfTf": 14400,
+        "bbMult": 3,
+        "rsiExtreme": 25,
+        "maxAdx": 25,
+        "slAtr": 1,
+        "minSlPct": 0.4,
+        "maxSlPct": 6,
+        "tp1R": 1.5,
+        "tp2R": 3,
+        "validityMinutes": 60,
+        "maxHoldHours": 12
+      },
+      "train": {
+        "signals": 248,
+        "taken": 248,
+        "expired": 0,
+        "wins": 96,
+        "winRate": 38.70967741935484,
+        "avgR": -0.10845588317098001,
+        "totalR": -26.897059026403042,
+        "profitFactor": 0.8282819255913265,
+        "maxLossStreak": 17,
+        "maxDrawdownR": 59.47668788970755,
+        "byResult": {
+          "sl": 143,
+          "timeout": 59,
+          "tp2": 28,
+          "be": 18
+        }
+      },
+      "test": {
+        "signals": 124,
+        "taken": 124,
+        "expired": 0,
+        "wins": 52,
+        "winRate": 41.935483870967744,
+        "avgR": -0.07743603865850131,
+        "totalR": -9.602068793654162,
+        "profitFactor": 0.8655920400034433,
+        "maxLossStreak": 9,
+        "maxDrawdownR": 22.24902413180631,
+        "byResult": {
+          "sl": 63,
+          "timeout": 34,
+          "tp2": 13,
+          "be": 14
+        }
+      }
+    }
+  ]
+}

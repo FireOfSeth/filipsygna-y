@@ -1,0 +1,18 @@
+[Unit]
+Description=MEXC Sygnaly - skaner okazji futures
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mexc
+WorkingDirectory=/opt/mexc-sygnaly
+ExecStart=/usr/bin/node src/index.js
+Environment=TZ=Europe/Warsaw
+Restart=always
+RestartSec=15
+# Restart bez limitu prób (serwer ma wstać także po dłuższej awarii sieci)
+StartLimitIntervalSec=0
+
+[Install]
+WantedBy=multi-user.target

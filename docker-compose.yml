@@ -1,0 +1,10 @@
+services:
+  mexc-sygnaly:
+    build: .
+    container_name: mexc-sygnaly
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Warsaw
+    volumes:
+      - ./config.json:/app/config.json:ro
+      - ./data:/app/data

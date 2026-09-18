@@ -1,0 +1,15 @@
+{
+  "name": "mexc-sygnaly",
+  "version": "1.0.0",
+  "description": "Skaner okazji na kontraktach futures MEXC z alertami na Telegram",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "backtest": "node src/backtest.js",
+    "test-alert": "node src/index.js --test-alert"
+  }
+}

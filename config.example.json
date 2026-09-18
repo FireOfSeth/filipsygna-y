@@ -1,0 +1,29 @@
+{
+  "telegram": {
+    "botToken": "WKLEJ_TUTAJ_TOKEN_OD_BOTFATHER",
+    "chatId": ""
+  },
+  "capitalUsdt": 100,
+  "riskPerTradePct": 20,
+  "maxLeverage": 36,
+  "testMode": true,
+  "strategy": {
+    "name": "pullback",
+    "params": {
+      "entryTf": 3600,
+      "htfTf": 14400,
+      "validityMinutes": 60,
+      "minSlPct": 0.6,
+      "maxSlPct": 6,
+      "tp1R": 2,
+      "tp2R": 4,
+      "maxHoldHours": 48
+    }
+  },
+  "market": {
+    "minTurnover24hUsdt": 3000000,
+    "exclude": [],
+    "maxAlertsPerScan": 3,
+    "cooldownHours": 4
+  }
+}
