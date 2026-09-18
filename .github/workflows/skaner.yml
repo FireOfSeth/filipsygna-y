@@ -1,0 +1,51 @@
+name: Skaner MEXC
+
+on:
+  schedule:
+    # Co 15 minut. GitHub uruchamia zadania z opóźnieniem 5-20 minut przy dużym obciążeniu.
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # ręczne uruchomienie przyciskiem "Run workflow"
+
+concurrency:
+  group: skaner
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  skan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Skan rynku i alerty
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TZ: Europe/Warsaw
+        run: node src/index.js --once
+
+      - name: Zapisz stan skanera
+        if: always()
+        run: |
+          git config user.name "skaner"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --staged --quiet; then
+            echo "Brak zmian w stanie."
+            exit 0
+          fi
+          git commit -m "stan skanera [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash && git push; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Nie udało się zapisać stanu."
+          exit 1
