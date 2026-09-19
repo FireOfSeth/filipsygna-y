@@ -3,9 +3,13 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1789772400,
+  "lastScanBar": 1789783200,
   "lastSummaryDay": "",
-  "lastScan": null,
+  "lastScan": {
+    "at": 1789784623823,
+    "pairs": 105,
+    "found": 0
+  },
   "cooldowns": {},
   "trades": [],
   "tgOffset": 246912355
