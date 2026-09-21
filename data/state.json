@@ -3,11 +3,11 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1789999200,
+  "lastScanBar": 1790017200,
   "lastSummaryDay": "2026-09-21",
   "lastScan": {
-    "at": 1789999489948,
-    "pairs": 111,
+    "at": 1790018693993,
+    "pairs": 116,
     "found": 0
   },
   "cooldowns": {
@@ -31,7 +31,7 @@
       "status": "open",
       "result": null,
       "validUntil": 1789927200,
-      "lastT": 1789999380,
+      "lastT": 1790018580,
       "r": 0,
       "priceScale": 4,
       "size": {
@@ -61,11 +61,11 @@
       "score": 63,
       "why": "trend 4h wzrostowy (EMA50 > EMA200), korekta na 1h do EMA21 zakończona, ADX 23, wolumen 2.7× średniej",
       "maxHoldHours": 48,
-      "status": "open",
-      "result": null,
+      "status": "closed",
+      "result": "tp2",
       "validUntil": 1789927200,
-      "lastT": 1789999380,
-      "r": 0,
+      "lastT": 1790002620,
+      "r": 2.990847417840374,
       "priceScale": 10,
       "size": {
         "lev": 6,
@@ -79,7 +79,8 @@
         "reduced": false
       },
       "alerted": true,
-      "filledT": 1789923600
+      "filledT": 1789923600,
+      "closedT": 1790002680
     }
   ],
   "tgOffset": 246912355
