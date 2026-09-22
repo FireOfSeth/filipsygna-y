@@ -3,10 +3,10 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1790089200,
+  "lastScanBar": 1790103600,
   "lastSummaryDay": "2026-09-21",
   "lastScan": {
-    "at": 1790057504466,
+    "at": 1790104271016,
     "pairs": 118,
     "found": 0
   },
@@ -28,11 +28,11 @@
       "score": 73,
       "why": "trend 4h wzrostowy (EMA50 > EMA200), korekta na 1h do EMA21 zakończona, ADX 23, wolumen 4.5× średniej",
       "maxHoldHours": 48,
-      "status": "open",
-      "result": null,
+      "status": "closed",
+      "result": "timeout",
       "validUntil": 1789927200,
-      "lastT": 1790091600,
-      "r": 0,
+      "lastT": 1790096340,
+      "r": 0.927927984344419,
       "priceScale": 4,
       "size": {
         "lev": 5,
@@ -46,7 +46,9 @@
         "reduced": false
       },
       "alerted": true,
-      "filledT": 1789923600
+      "filledT": 1789923600,
+      "exitPrice": 1.005,
+      "closedT": 1790096400
     },
     {
       "id": "PEPE_USDT-1789922700",
