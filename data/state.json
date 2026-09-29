@@ -3,11 +3,11 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1790643600,
-  "lastSummaryDay": "2026-09-28",
+  "lastScanBar": 1790665200,
+  "lastSummaryDay": "2026-09-29",
   "lastScan": {
-    "at": 1790644581335,
-    "pairs": 114,
+    "at": 1790665693621,
+    "pairs": 105,
     "found": 0
   },
   "cooldowns": {
