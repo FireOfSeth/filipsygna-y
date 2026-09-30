@@ -3,17 +3,18 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1790755200,
+  "lastScanBar": 1790780400,
   "lastSummaryDay": "2026-09-29",
   "lastScan": {
-    "at": 1790733940714,
-    "pairs": 103,
-    "found": 0
+    "at": 1790780948409,
+    "pairs": 112,
+    "found": 1
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
     "PEPE_USDT": 1789937100,
-    "CRCLSTOCK_USDT": 1790703900
+    "CRCLSTOCK_USDT": 1790703900,
+    "XAUT_USDT": 1790793900
   },
   "trades": [
     {
@@ -101,7 +102,7 @@
       "status": "open",
       "result": null,
       "validUntil": 1790694000,
-      "lastT": 1790756820,
+      "lastT": 1790780880,
       "r": 0,
       "priceScale": 2,
       "size": {
@@ -117,6 +118,39 @@
       },
       "alerted": true,
       "filledT": 1790690400
+    },
+    {
+      "id": "XAUT_USDT-1790779500",
+      "symbol": "XAUT_USDT",
+      "side": "SHORT",
+      "t": 1790779500,
+      "entry": 4166.3,
+      "sl": 4217.2,
+      "tp1": 4064.5,
+      "tp2": 3962.6,
+      "slPct": 1.2222806293776263,
+      "score": 57,
+      "why": "trend 4h spadkowy (EMA50 < EMA200), odbicie na 1h do EMA21 zakończone, ADX 26, wolumen 2.7× średniej",
+      "maxHoldHours": 48,
+      "status": "open",
+      "result": null,
+      "validUntil": 1790784000,
+      "lastT": 1790780880,
+      "r": 0,
+      "priceScale": 1,
+      "size": {
+        "lev": 18,
+        "contracts": 380,
+        "coins": 0.38,
+        "notional": 1583.1940000000002,
+        "margin": 87.95522222222223,
+        "risk": 19.97527759999986,
+        "riskPctActual": 19.97527759999986,
+        "liq": 4396.094591111111,
+        "reduced": false
+      },
+      "alerted": true,
+      "filledT": 1790780400
     }
   ],
   "tgOffset": 246912355
