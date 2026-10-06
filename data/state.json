@@ -3,18 +3,19 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1791277200,
+  "lastScanBar": 1791302400,
   "lastSummaryDay": "2026-10-05",
   "lastScan": {
-    "at": 1791278703617,
-    "pairs": 107,
-    "found": 0
+    "at": 1791302737970,
+    "pairs": 105,
+    "found": 1
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
     "PEPE_USDT": 1789937100,
     "CRCLSTOCK_USDT": 1790703900,
-    "XAUT_USDT": 1790793900
+    "XAUT_USDT": 1790793900,
+    "JUP_USDT": 1791315900
   },
   "trades": [
     {
@@ -154,6 +155,39 @@
       "alerted": true,
       "filledT": 1790780400,
       "closedT": 1790944260
+    },
+    {
+      "id": "JUP_USDT-1791301500",
+      "symbol": "JUP_USDT",
+      "side": "LONG",
+      "t": 1791301500,
+      "entry": 0.3484,
+      "sl": 0.3379,
+      "tp1": 0.3694,
+      "tp2": 0.3904,
+      "slPct": 3.015114221660048,
+      "score": 69,
+      "why": "trend 4h wzrostowy (EMA50 > EMA200), korekta na 1h do EMA21 zakończona, ADX 20, wolumen 3.9× średniej",
+      "maxHoldHours": 48,
+      "status": "open",
+      "result": null,
+      "validUntil": 1791306000,
+      "lastT": 1791302640,
+      "r": 0,
+      "priceScale": 4,
+      "size": {
+        "lev": 8,
+        "contracts": 190,
+        "coins": 1900,
+        "notional": 661.96,
+        "margin": 82.745,
+        "risk": 19.95000000000002,
+        "riskPctActual": 19.95000000000002,
+        "liq": 0.3062436,
+        "reduced": false
+      },
+      "alerted": true,
+      "filledT": 1791302400
     }
   ],
   "tgOffset": 246912355
