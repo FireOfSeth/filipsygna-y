@@ -3,19 +3,20 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1792170000,
+  "lastScanBar": 1792180800,
   "lastSummaryDay": "2026-10-09",
   "lastScan": {
-    "at": 1792157027675,
+    "at": 1792181083992,
     "pairs": 107,
-    "found": 0
+    "found": 1
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
     "PEPE_USDT": 1789937100,
     "CRCLSTOCK_USDT": 1790703900,
     "XAUT_USDT": 1790793900,
-    "JUP_USDT": 1791315900
+    "JUP_USDT": 1791315900,
+    "AAPLSTOCK_USDT": 1792194300
   },
   "trades": [
     {
@@ -189,6 +190,39 @@
       "alerted": true,
       "filledT": 1791302400,
       "closedT": 1791338460
+    },
+    {
+      "id": "AAPLSTOCK_USDT-1792179900",
+      "symbol": "AAPLSTOCK_USDT",
+      "side": "LONG",
+      "t": 1792179900,
+      "entry": 344.03,
+      "sl": 340.71,
+      "tp1": 350.67,
+      "tp2": 357.31,
+      "slPct": 0.9649439344479227,
+      "score": 44,
+      "why": "trend 4h wzrostowy (EMA50 > EMA200), korekta na 1h do EMA21 zakończona, ADX 24, wolumen 1.9× średniej",
+      "maxHoldHours": 48,
+      "status": "open",
+      "result": null,
+      "validUntil": 1792184400,
+      "lastT": 1792180980,
+      "r": 0,
+      "priceScale": 2,
+      "size": {
+        "lev": 23,
+        "contracts": 578,
+        "coins": 5.78,
+        "notional": 1988.4933999999998,
+        "margin": 86.45623478260869,
+        "risk": 19.98499735999996,
+        "riskPctActual": 19.98499735999996,
+        "liq": 330.79232391304345,
+        "reduced": false
+      },
+      "alerted": true,
+      "filledT": 1792180800
     }
   ],
   "tgOffset": 246912355
