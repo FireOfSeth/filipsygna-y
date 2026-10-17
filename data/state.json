@@ -3,12 +3,12 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1792195200,
+  "lastScanBar": 1792213200,
   "lastSummaryDay": "2026-10-09",
   "lastScan": {
-    "at": 1792181083992,
-    "pairs": 107,
-    "found": 1
+    "at": 1792214013608,
+    "pairs": 103,
+    "found": 0
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
@@ -207,7 +207,7 @@
       "status": "open",
       "result": null,
       "validUntil": 1792184400,
-      "lastT": 1792198440,
+      "lastT": 1792213920,
       "r": 0,
       "priceScale": 2,
       "size": {
