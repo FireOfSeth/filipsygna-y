@@ -3,12 +3,12 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1792389600,
+  "lastScanBar": 1792418400,
   "lastSummaryDay": "2026-10-09",
   "lastScan": {
-    "at": 1792350414288,
-    "pairs": 79,
-    "found": 0
+    "at": 1792419133044,
+    "pairs": 100,
+    "found": 1
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
@@ -16,7 +16,8 @@
     "CRCLSTOCK_USDT": 1790703900,
     "XAUT_USDT": 1790793900,
     "JUP_USDT": 1791315900,
-    "AAPLSTOCK_USDT": 1792194300
+    "AAPLSTOCK_USDT": 1792194300,
+    "LINK_USDT": 1792431900
   },
   "trades": [
     {
@@ -225,6 +226,39 @@
       "filledT": 1792180800,
       "exitPrice": 343.16,
       "closedT": 1792353600
+    },
+    {
+      "id": "LINK_USDT-1792417500",
+      "symbol": "LINK_USDT",
+      "side": "SHORT",
+      "t": 1792417500,
+      "entry": 11.985,
+      "sl": 12.283,
+      "tp1": 11.389,
+      "tp2": 10.794,
+      "slPct": 2.4845579935719466,
+      "score": 40,
+      "why": "trend 4h spadkowy (EMA50 < EMA200), odbicie na 1h do EMA21 zakończone, ADX 21, wolumen 1.2× średniej",
+      "maxHoldHours": 48,
+      "status": "open",
+      "result": null,
+      "validUntil": 1792422000,
+      "lastT": 1792419060,
+      "r": 0,
+      "priceScale": 3,
+      "size": {
+        "lev": 9,
+        "contracts": 660,
+        "coins": 66,
+        "notional": 791.0099999999999,
+        "margin": 87.88999999999999,
+        "risk": 19.984404,
+        "riskPctActual": 19.984404,
+        "liq": 13.289101166666667,
+        "reduced": false
+      },
+      "alerted": true,
+      "filledT": 1792418400
     }
   ],
   "tgOffset": 246912355
