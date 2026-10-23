@@ -3,12 +3,12 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1792767600,
+  "lastScanBar": 1792782000,
   "lastSummaryDay": "2026-10-21",
   "lastScan": {
-    "at": 1792767716862,
-    "pairs": 105,
-    "found": 0
+    "at": 1792782642530,
+    "pairs": 101,
+    "found": 1
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
@@ -18,7 +18,8 @@
     "JUP_USDT": 1791315900,
     "AAPLSTOCK_USDT": 1792194300,
     "LINK_USDT": 1792431900,
-    "TAO_USDT": 1792763100
+    "TAO_USDT": 1792763100,
+    "DOGE_USDT": 1792795500
   },
   "trades": [
     {
@@ -278,7 +279,7 @@
       "status": "open",
       "result": null,
       "validUntil": 1792753200,
-      "lastT": 1792767600,
+      "lastT": 1792782540,
       "r": 0,
       "priceScale": 2,
       "size": {
@@ -294,6 +295,39 @@
       },
       "alerted": true,
       "filledT": 1792749600
+    },
+    {
+      "id": "DOGE_USDT-1792781100",
+      "symbol": "DOGE_USDT",
+      "side": "SHORT",
+      "t": 1792781100,
+      "entry": 0.0795,
+      "sl": 0.08063,
+      "tp1": 0.07724,
+      "tp2": 0.07498,
+      "slPct": 1.4223194444502218,
+      "score": 49,
+      "why": "trend 4h spadkowy (EMA50 < EMA200), odbicie na 1h do EMA21 zakończone, ADX 22, wolumen 1.1× średniej",
+      "maxHoldHours": 48,
+      "status": "open",
+      "result": null,
+      "validUntil": 1792785600,
+      "lastT": 1792782540,
+      "r": 0,
+      "priceScale": 5,
+      "size": {
+        "lev": 16,
+        "contracts": 176,
+        "coins": 17600,
+        "notional": 1399.2,
+        "margin": 87.45,
+        "risk": 19.887999999999863,
+        "riskPctActual": 19.887999999999863,
+        "liq": 0.0842859,
+        "reduced": false
+      },
+      "alerted": true,
+      "filledT": 1792782000
     }
   ],
   "tgOffset": 246912355
