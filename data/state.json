@@ -3,12 +3,12 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1792731600,
+  "lastScanBar": 1792749600,
   "lastSummaryDay": "2026-10-21",
   "lastScan": {
-    "at": 1792732314058,
-    "pairs": 110,
-    "found": 0
+    "at": 1792749723743,
+    "pairs": 105,
+    "found": 1
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
@@ -17,7 +17,8 @@
     "XAUT_USDT": 1790793900,
     "JUP_USDT": 1791315900,
     "AAPLSTOCK_USDT": 1792194300,
-    "LINK_USDT": 1792431900
+    "LINK_USDT": 1792431900,
+    "TAO_USDT": 1792763100
   },
   "trades": [
     {
@@ -260,6 +261,39 @@
       "alerted": true,
       "filledT": 1792418400,
       "closedT": 1792505280
+    },
+    {
+      "id": "TAO_USDT-1792748700",
+      "symbol": "TAO_USDT",
+      "side": "SHORT",
+      "t": 1792748700,
+      "entry": 260.6,
+      "sl": 264.11,
+      "tp1": 253.57,
+      "tp2": 246.55,
+      "slPct": 1.3479066965566753,
+      "score": 47,
+      "why": "trend 4h spadkowy (EMA50 < EMA200), odbicie na 1h do EMA21 zakończone, ADX 25, wolumen 1.1× średniej",
+      "maxHoldHours": 48,
+      "status": "open",
+      "result": null,
+      "validUntil": 1792753200,
+      "lastT": 1792749660,
+      "r": 0,
+      "priceScale": 2,
+      "size": {
+        "lev": 17,
+        "contracts": 569,
+        "coins": 5.69,
+        "notional": 1482.814,
+        "margin": 87.22435294117648,
+        "risk": 19.97189999999995,
+        "riskPctActual": 19.97189999999995,
+        "liq": 275.3300317647059,
+        "reduced": false
+      },
+      "alerted": true,
+      "filledT": 1792749600
     }
   ],
   "tgOffset": 246912355
