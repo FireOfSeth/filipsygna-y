@@ -3,7 +3,7 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1792832400,
+  "lastScanBar": 1792846800,
   "lastSummaryDay": "2026-10-21",
   "lastScan": {
     "at": 1792818109814,
@@ -276,11 +276,11 @@
       "score": 47,
       "why": "trend 4h spadkowy (EMA50 < EMA200), odbicie na 1h do EMA21 zakończone, ADX 25, wolumen 1.1× średniej",
       "maxHoldHours": 48,
-      "status": "tp1",
-      "result": null,
+      "status": "closed",
+      "result": "tp2",
       "validUntil": 1792753200,
-      "lastT": 1792834080,
-      "r": 1.0014245014245082,
+      "lastT": 1792834980,
+      "r": 2.9731509971510106,
       "priceScale": 2,
       "size": {
         "lev": 17,
@@ -294,7 +294,8 @@
         "reduced": false
       },
       "alerted": true,
-      "filledT": 1792749600
+      "filledT": 1792749600,
+      "closedT": 1792835040
     },
     {
       "id": "DOGE_USDT-1792781100",
@@ -312,7 +313,7 @@
       "status": "tp1",
       "result": null,
       "validUntil": 1792785600,
-      "lastT": 1792834080,
+      "lastT": 1792848540,
       "r": 1.0000000000000062,
       "priceScale": 5,
       "size": {
