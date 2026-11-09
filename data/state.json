@@ -3,12 +3,12 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1794218400,
+  "lastScanBar": 1794258000,
   "lastSummaryDay": "2026-11-08",
   "lastScan": {
-    "at": 1794180263116,
-    "pairs": 68,
-    "found": 0
+    "at": 1794258329944,
+    "pairs": 100,
+    "found": 1
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
@@ -19,7 +19,8 @@
     "AAPLSTOCK_USDT": 1792194300,
     "LINK_USDT": 1792431900,
     "TAO_USDT": 1792763100,
-    "DOGE_USDT": 1792795500
+    "DOGE_USDT": 1792795500,
+    "XPL_USDT": 1794271500
   },
   "trades": [
     {
@@ -330,6 +331,39 @@
       "alerted": true,
       "filledT": 1792782000,
       "closedT": 1792855020
+    },
+    {
+      "id": "XPL_USDT-1794257100",
+      "symbol": "XPL_USDT",
+      "side": "SHORT",
+      "t": 1794257100,
+      "entry": 0.05241,
+      "sl": 0.05412,
+      "tp1": 0.04898,
+      "tp2": 0.04556,
+      "slPct": 3.267554354157375,
+      "score": 54,
+      "why": "trend 4h spadkowy (EMA50 < EMA200), odbicie na 1h do EMA21 zakończone, ADX 26, wolumen 1.3× średniej",
+      "maxHoldHours": 48,
+      "status": "open",
+      "result": null,
+      "validUntil": 1794261600,
+      "lastT": 1794258240,
+      "r": 0,
+      "priceScale": 5,
+      "size": {
+        "lev": 7,
+        "contracts": 11695,
+        "coins": 11695,
+        "notional": 612.93495,
+        "margin": 87.5621357142857,
+        "risk": 19.998450000000037,
+        "riskPctActual": 19.998450000000037,
+        "liq": 0.05963509285714286,
+        "reduced": false
+      },
+      "alerted": true,
+      "filledT": 1794258000
     }
   ],
   "tgOffset": 246912355
