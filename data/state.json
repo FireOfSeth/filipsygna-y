@@ -3,12 +3,12 @@
   "riskPct": 20,
   "paused": false,
   "chatId": "7037804334",
-  "lastScanBar": 1794308400,
+  "lastScanBar": 1794337200,
   "lastSummaryDay": "2026-11-08",
   "lastScan": {
-    "at": 1794258329944,
-    "pairs": 100,
-    "found": 1
+    "at": 1794337573268,
+    "pairs": 90,
+    "found": 0
   },
   "cooldowns": {
     "FILECOIN_USDT": 1789937100,
@@ -345,11 +345,11 @@
       "score": 54,
       "why": "trend 4h spadkowy (EMA50 < EMA200), odbicie na 1h do EMA21 zakończone, ADX 26, wolumen 1.3× średniej",
       "maxHoldHours": 48,
-      "status": "open",
-      "result": null,
+      "status": "closed",
+      "result": "sl",
       "validUntil": 1794261600,
-      "lastT": 1794311040,
-      "r": 0,
+      "lastT": 1794322860,
+      "r": -1.0622596491228071,
       "priceScale": 5,
       "size": {
         "lev": 7,
@@ -363,7 +363,8 @@
         "reduced": false
       },
       "alerted": true,
-      "filledT": 1794258000
+      "filledT": 1794258000,
+      "closedT": 1794322920
     }
   ],
   "tgOffset": 246912355
